@@ -195,3 +195,19 @@ Dataset B "boro" column:    {MANHATTAN, BRONX, BROOKLYN, QUEENS, STATEN ISLAND}
 | Tables with date info | 40.4% | Figure 12 |
 | Tables never modified (30 days) | 71% | Figure 8 |
 | Table sparseness 0-0.1 (low null) | 63% | Figure 13 |
+
+
+
+pd.DataFrame({
+    "dataset_id_1": ...,
+    "column_name_1": ...,
+    "dataset_id_2": ...,
+    "column_name_2": ...,
+    "score": ...,          # 0~1 confidence(cosine similarity / Jaccard containment)
+    "method": "jaccard"    # 或 "embedding" / "lazo"
+})
+
+A: combine 3 datasets and stratified sampling -> All: Ground Truth Labeling
+B: PR curve for 3 methods
+C: Knowledge Graph
+
