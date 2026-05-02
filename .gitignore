@@ -1,4 +1,5 @@
 .env
+.DS_Store
 /venv
 MEMBER_A_CONTEXT.md
 Data/*
