@@ -1,5 +1,7 @@
 .env
 /venv
 MEMBER_A_CONTEXT.md
-/data
+Data/*
+!Data/ground_truth_candidates - Desmond.csv
+!Data/merged_column_pairs.parquet
 00*
