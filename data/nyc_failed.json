@@ -1,0 +1,62 @@
+[
+  {
+    "id": "qgea-i56i",
+    "name": "NYPD Complaint Data Historic",
+    "errors": [
+      {
+        "type": "sample_rows",
+        "error": "HTTPSConnectionPool(host='data.cityofnewyork.us', port=443): Read timed out. (read timeout=60)"
+      }
+    ]
+  },
+  {
+    "id": "t29m-gskq",
+    "name": "2018 Yellow Taxi Trip Data",
+    "errors": [
+      {
+        "type": "sample_rows",
+        "error": "HTTPSConnectionPool(host='data.cityofnewyork.us', port=443): Read timed out. (read timeout=60)"
+      }
+    ]
+  },
+  {
+    "id": "i4gi-tjb9",
+    "name": "DOT Traffic Speeds",
+    "errors": [
+      {
+        "type": "sample_rows",
+        "error": "HTTPSConnectionPool(host='data.cityofnewyork.us', port=443): Read timed out. (read timeout=60)"
+      }
+    ]
+  },
+  {
+    "id": "erdf-2akx",
+    "name": "EZ Pass Readers 2021-July 2024",
+    "errors": [
+      {
+        "type": "sample_rows",
+        "error": "HTTPSConnectionPool(host='data.cityofnewyork.us', port=443): Read timed out. (read timeout=60)"
+      }
+    ]
+  },
+  {
+    "id": "quxm-hmyr",
+    "name": "LinkNYC Kiosk Status (Historical)",
+    "errors": [
+      {
+        "type": "sample_rows",
+        "error": "HTTPSConnectionPool(host='data.cityofnewyork.us', port=443): Read timed out. (read timeout=60)"
+      }
+    ]
+  },
+  {
+    "id": "kpv8-upnp",
+    "name": "Historical Medallion Drivers – Passenger Assistance Trained 2019-2020",
+    "errors": [
+      {
+        "type": "sample_rows",
+        "error": "HTTPSConnectionPool(host='data.cityofnewyork.us', port=443): Read timed out. (read timeout=60)"
+      }
+    ]
+  }
+]
